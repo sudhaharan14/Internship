@@ -1,0 +1,164 @@
+
+.text-center{
+    text-align: center;
+}
+
+.hero-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper{
+    background-color: white;
+    width: 320px;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;   
+}
+
+.wrapper h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.hero-btn{
+    padding: 20px 0;
+    display: block;
+}
+
+.hero-btn button{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 50px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+
+
+.input-box input{
+    width: 100%;
+    border: 1px solid rgb(201, 200, 200);
+    border-radius: 5px;
+    height: 40px;
+}
+
+.remember-item{
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.remember-item label input{
+    margin: 3px;
+}
+
+.remember-item a{
+    color:rgba(122,88,209,255);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.remember-item a:hover{
+    text-decoration: underline;
+}
+
+.sign-in-btn{
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    background-color:rgba(122,88,209,255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.signin-primary{
+    margin-bottom: 20px;
+}
+
+.signin-secondary{
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.wrap-email,.wrap-password{
+    margin-bottom: 15px;
+}
+.input-box p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color:black;
+}
+
+.wrap-password input::placeholder{
+    font-size: 40px;
+}
+
+.signup-link{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.signup-link a{
+    text-decoration: none;
+    color:rgba(122,88,209,255);
+    font-weight: 500;
+}
+
+.signup-link a:hover{
+    text-decoration: underline;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .circle-wrap{
+    background-color: ivory;
+    display: inline-block;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+    
+}
+
+.circle{
+    background-color:rgba(122,88,209,255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.glass {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 30px 45px 1px 15px;
+    margin-left: -15px;
+    margin-top: 12px;
+    border-radius: 5px;
+}
